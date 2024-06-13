@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h2 style="text-align: center; color: blue">Registration form</h2>
+    <form
+      style="
+        width: 700px;
+        margin: 0 auto;
+        border: 1px solid white;
+        padding: 10px;
+      "
+    >
+      <table style="width: 100%; border-collapse: collapse">
+        <tr>
+          <td style="border: 1px solid black; width: 40%">
+            <b><center>First Name</center></b>
+          </td>
+          <td style="border: 1px solid black">
+            <input type="text" name="firstname" required style="width: 98%" />
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black">
+            <b><center>Last Name</center></b>
+          </td>
+          <td style="border: 1px solid black">
+            <input type="text" name="lastname" required style="width: 98%" />
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black">
+            <b><center>Email</center></b>
+          </td>
+          <td style="border: 1px solid black">
+            <input type="email" name="email" required style="width: 98%" />
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black">
+            <b><center>Password</center></b>
+          </td>
+          <td style="border: 1px solid black">
+            <input
+              type="password"
+              name="password"
+              required
+              style="width: 98%"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black">
+            <b><center>Re-enter Password</center></b>
+          </td>
+          <td style="border: 1px solid black">
+            <input
+              type="password"
+              name="repassword"
+              required
+              style="width: 98%"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black">
+            <b><center>Gender:</center></b>
+          </td>
+          <td style="border: 1px solid black">
+            <div style="display: flex; flex-direction: column">
+              <div style="display: flex; align-items: center">
+                <input type="radio" name="gender" value="male" required /> Male
+              </div>
+              <div style="border-bottom: 1px solid black; margin: 5px 0"></div>
+              <div style="display: flex; align-items: center">
+                <input type="radio" name="gender" value="female" required />
+                Female
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="border: 1px solid black">
+            <b><center>Age:</center></b>
+          </td>
+          <td style="border: 1px solid black">
+            <input type="number" name="age" required style="width: 98%" />
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black">
+            <b><center>Phone Number</center></b>
+          </td>
+          <td style="border: 1px solid black">
+            <input type="tel" name="phone" required style="width: 98%" />
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black">
+            <b><center>Address</center></b>
+          </td>
+          <td style="border: 1px solid black">
+            <textarea
+              name="address"
+              rows="6"
+              required
+              style="width: 98%"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black">
+            <b><center>State</center></b>
+          </td>
+          <td style="border: 1px solid black">
+            <input type="text" name="state" required style="width: 98%" />
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black">
+            <b><center>Country</center></b>
+          </td>
+          <td style="border: 1px solid black">
+            <select name="country" required style="width: 100%">
+              <option value="">Choose your country</option>
+              <option value="male">India</option>
+              <option value="male">USA</option>
+              <option value="male">Russia</option>
+              <option value="male">China</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black">
+            <b><center>Languages known</center></b>
+          </td>
+          <td style="border: 1px solid black">
+            <input type="checkbox" name="language" value="english" />
+            English
+            <input type="checkbox" name="language" value="kannada" />
+            Kannada
+            <input type="checkbox" name="language" value="hindi" /> Hindi
+            <input type="checkbox" name="language" value="telugu" /> Telugu
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="border: 1px solid black">
+            <input type="checkbox" name="declare" required /> Hereby I declare
+            all the given details are true
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: right; border: 1px solid black">
+            Log in to
+            <a href="https://www.ethnus.com" target="_blank">Ethnus</a> website
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <div style="text-align: center; margin-top: 10px">
+      <button type="submit" form="registrationForm">Register</button>
+    </div>
+  </body>
+</html>

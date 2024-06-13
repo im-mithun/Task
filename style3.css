@@ -1,0 +1,29 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid lightgrey;
+}
+
+th,
+td {
+  border: 0px solid lightgrey;
+  padding: 8px;
+  text-align: left;
+}
+
+.first-row {
+  background-color: rgb(90, 182, 90);
+  color: white;
+}
+
+tr:nth-child(even):not(.first-row) {
+  background-color: lightgray;
+}
+
+tr:nth-child(odd):not(.first-row) {
+  background-color: white;
+}
+
+tr:not(.first-row):hover {
+  background-color: coral;
+}

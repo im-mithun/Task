@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-container {
+  width: 70%;
+  margin: 20px 0;
+  background-color: #a0e4e9;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 4px;
+}
+
+th,
+td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: left;
+  border-radius: 15px;
+  background-color: #a0e4e9;
+}
+
+th {
+  background-color: #a0e4e9;
+  border-radius: 15px;
+}
+
+.shapes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 10px;
+  margin-top: 20px;
+  width: 40%;
+  justify-items: center;
+}
+
+.shape {
+  border: 2px solid #b6eca6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shape1 {
+  width: 80px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.shape2 {
+  width: 80px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.shape3 {
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.shape4 {
+  width: 80px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.shape5 {
+  width: 80px;
+  height: 50px;
+  border-radius: 2px;
+}
+
+.shape6 {
+  width: 100px;
+  height: 50px;
+  border-radius: 17px;
+}
+
+.shape7 {
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.shape8 {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.shape9 {
+  width: 100px;
+  height: 50px;
+  border: 2px solid #b6eca6;
+  border-radius: 0 15px 0 15px;
+}
