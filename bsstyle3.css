@@ -1,0 +1,66 @@
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-nav .nav-link {
+  margin-right: 1rem;
+}
+.navbar-nav .btn {
+  margin-left: 1rem;
+}
+.pricing-header {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.pricing-table {
+  max-width: 960px;
+  margin: auto;
+}
+.card {
+  margin: 1rem 0;
+  border: 1px solid lightgrey;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: none;
+  position: relative;
+}
+.card-header h4 {
+  margin-bottom: 0;
+  color: rgb(41, 41, 41);
+}
+.card-header::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: lightgrey;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.card-body h5 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.card-body p {
+  margin: 0.5rem 0;
+}
+.footer-divider {
+  border-top: 1px solid #e5e5e5;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+footer p {
+  margin: 0;
+}
+footer .row {
+  text-align: center;
+}
+.footer-icon {
+  text-align: left;
+  margin: 2rem 0;
+}
+.footer-icon img {
+  height: 30px;
+}
