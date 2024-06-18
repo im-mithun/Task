@@ -1,5 +1,5 @@
 body {
-  background-color: #aa0b48; /* Maroon background */
+  background-color: #aa0b48;
   margin: 0;
   height: 100vh;
   display: flex;
@@ -8,7 +8,7 @@ body {
 }
 
 .form-container {
-  background-color: rgba(43, 40, 40, 0.7); /* Black translucent container */
+  background-color: rgba(43, 40, 40, 0.7);
   padding: 20px;
   border-radius: 10px;
   width: 500px;
