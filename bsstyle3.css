@@ -60,6 +60,9 @@ footer .row {
 .footer-icon {
   text-align: left;
   margin: 2rem 0;
+  position: relative;
+  top: -150px;
+  right: -50px;
 }
 .footer-icon img {
   height: 30px;
